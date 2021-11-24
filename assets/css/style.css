@@ -904,6 +904,7 @@ h1, h2, h3, h4, h5, h6 {
     .application-form__btn {
       width: 100%;
       margin-left: 20px;
+      margin-top: 20px;
       text-align: right; }
 
 /*================/application==============*/
