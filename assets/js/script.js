@@ -54,6 +54,22 @@ $(document).ready(function() {
  });
  /*============/differents==========*/
 
+ /*==========Application-label===========*/
+ $('.application-form__item input').on('input', function() {
+ 
+
+ if($(this).val().length == 0)
+ {
+   $(this).removeClass('active');
+ }
+ else
+ {
+   $(this).addClass('active');
+ }
+
+});
+ /*==========application-label===========*/
+
 
 	
 });

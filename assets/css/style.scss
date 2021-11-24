@@ -884,7 +884,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 				&:focus {
 					border: 1px solid #80d1ff;
 				}
-				&:focus+label {
+				&:focus+label, &.active + label  {
 					
 					font-size: 12px;
 					top: -6px;
@@ -899,7 +899,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 				color: #747474;
 				background-color: $wh;
 				border-radius: 12px;
-				padding: 3px 7px;
+				padding: 1px 7px;
 				position: absolute;
 				top: 16px;
 				left: 13px;

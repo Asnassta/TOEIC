@@ -876,7 +876,7 @@ h1, h2, h3, h4, h5, h6 {
         transition: all .3s linear; }
         .application-form__form input:focus {
           border: 1px solid #80d1ff; }
-        .application-form__form input:focus + label {
+        .application-form__form input:focus + label, .application-form__form input.active + label {
           font-size: 12px;
           top: -6px; }
       .application-form__form label {
@@ -886,7 +886,7 @@ h1, h2, h3, h4, h5, h6 {
         color: #747474;
         background-color: #fff;
         border-radius: 12px;
-        padding: 3px 7px;
+        padding: 1px 7px;
         position: absolute;
         top: 16px;
         left: 13px;
