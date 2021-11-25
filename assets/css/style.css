@@ -644,6 +644,9 @@ h1, h2, h3, h4, h5, h6 {
   .facts_itp {
     background: url("../images/facts-bg_2.png") center no-repeat;
     background-size: cover; }
+    .facts_itp .facts__number {
+      font-family: "Myriad Pro", sans-serif;
+      font-style: italic; }
 
 /*===============/facts==============*/
 /*================Why======*/
