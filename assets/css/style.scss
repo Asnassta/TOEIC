@@ -418,6 +418,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 /*=================About=============*/
 .about {
+	.title-block {
+		font-style: normal;
+	}
 	&__inner {
 		display: flex;
 		align-items: flex-start;
@@ -510,6 +513,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 		}
 	}
 	&_itp {
+		.title-block {
+			font-style: italic;
+		}
 		.about__content {
 			padding-right: 0;
 		}
@@ -616,6 +622,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 /*================Why======*/
 .why {
+	.title-block {
+		font-style: normal;
+	}
 	&__inner {
 		display: flex;
 		margin-left: -23px;
@@ -662,6 +671,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 		font-weight: 400;
 		color: $bl;
 		line-height: 1.2;
+	}
+	&_itp {
+		.title-block {
+			font-style: italic;
+		}
 	}
 }
 /*================/why======*/

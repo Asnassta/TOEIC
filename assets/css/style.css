@@ -464,6 +464,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /*=============/tests============*/
 /*=================About=============*/
+.about .title-block {
+  font-style: normal; }
+
 .about__inner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -549,6 +552,9 @@ h1, h2, h3, h4, h5, h6 {
     .about-kinds__text span {
       color: #005734;
       font-weight: 700; }
+
+.about_itp .title-block {
+  font-style: italic; }
 
 .about_itp .about__content {
   padding-right: 0; }
@@ -641,6 +647,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /*===============/facts==============*/
 /*================Why======*/
+.why .title-block {
+  font-style: normal; }
+
 .why__inner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -686,6 +695,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   color: #000;
   line-height: 1.2; }
+
+.why_itp .title-block {
+  font-style: italic; }
 
 /*================/why======*/
 /*===========Differents============*/
