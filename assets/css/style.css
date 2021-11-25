@@ -21,6 +21,13 @@
 
 @font-face {
   font-family: 'Myriad Pro';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/MyriadPro-SemiboldIt.woff") format("woff"), url("../fonts/MyriadPro-SemiboldIt.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Myriad Pro';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -119,16 +126,17 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Myriad Pro", sans-serif;
   font-size: 34px;
   font-weight: 700;
+  font-style: italic;
   color: #000;
   line-height: 1.3;
   text-align: center;
   margin-bottom: 45px; }
   .title-block_green {
     color: #005734;
-    font-family: "WC Mano Negra Bta", cursive; }
+    font-family: "WC Mano Negra Bta", cursive;
+    font-style: normal; }
   .title-block_green-blue {
-    color: #077f83;
-    font-family: "WC Mano Negra Bta", cursive; }
+    color: #077f83; }
 
 .btn {
   display: inline-block;
@@ -733,6 +741,7 @@ h1, h2, h3, h4, h5, h6 {
   .university-quote__text {
     font-family: "Myriad Pro", sans-serif;
     font-size: 18px;
+    font-style: italic;
     font-weight: 600;
     line-height: 1.2;
     position: relative; }
@@ -833,6 +842,7 @@ h1, h2, h3, h4, h5, h6 {
     .application-form__desc {
       font-family: "Myriad Pro", sans-serif;
       font-weight: 600;
+      font-style: italic;
       color: #077f83;
       line-height: 1.25;
       padding-left: 50px;
@@ -917,7 +927,7 @@ h1, h2, h3, h4, h5, h6 {
   .footer__copyright {
     font-family: "Myriad Pro", sans-serif;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 300;
     color: rgba(255, 255, 255, 0.88);
     line-height: 1.25;
     margin: 0 auto 65px; }

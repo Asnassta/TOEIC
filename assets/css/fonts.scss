@@ -25,6 +25,15 @@
   url('../fonts/MyriadPro-Semibold.ttf') format('truetype'),
  }
 
+  @font-face {
+  font-family: 'Myriad Pro';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src:   url('../fonts/MyriadPro-SemiboldIt.woff') format('woff'),
+  url('../fonts/MyriadPro-SemiboldIt.ttf') format('truetype'),
+ }
+
  @font-face {
   font-family: 'Myriad Pro';
   font-style: normal;
