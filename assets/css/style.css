@@ -713,6 +713,155 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 30px; }
     .differents__content img {
       max-width: 100%; }
+  .differents__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 10px; }
+  .differents__col {
+    width: 50%;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 16px;
+    line-height: 1.2; }
+    .differents__col:first-child {
+      text-align: right;
+      padding-right: 35px;
+      padding-top: 10px;
+      padding-bottom: 25px;
+      border-right: 2px dashed #737373; }
+    .differents__col:nth-child(2) {
+      text-align: left;
+      padding-left: 35px;
+      padding-top: 10px;
+      padding-bottom: 25px; }
+    .differents__col_red {
+      display: inline-block;
+      background: -webkit-gradient(linear, left top, right top, color-stop(23%, #FA9C44), color-stop(76%, #D14A58), to(#D14A58));
+      background: -webkit-linear-gradient(left, #FA9C44 23%, #D14A58 76%, #D14A58);
+      background: -o-linear-gradient(left, #FA9C44 23%, #D14A58 76%, #D14A58);
+      background: linear-gradient(to right, #FA9C44 23%, #D14A58 76%, #D14A58);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: #D14A58; }
+    .differents__col_blue {
+      display: inline-block;
+      background: -webkit-gradient(linear, left top, right top, color-stop(23%, #103F87), color-stop(76%, #2AA7C3), to(#2AA7C3));
+      background: -webkit-linear-gradient(left, #103F87 23%, #2AA7C3 76%, #2AA7C3);
+      background: -o-linear-gradient(left, #103F87 23%, #2AA7C3 76%, #2AA7C3);
+      background: linear-gradient(to right, #103F87 23%, #2AA7C3 76%, #2AA7C3);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: #103F87; }
+  .differents__header .differents__col {
+    text-transform: uppercase;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    line-height: 1; }
+    .differents__header .differents__col:first-child {
+      padding-bottom: 10px; }
+    .differents__header .differents__col:nth-child(2) {
+      padding-bottom: 10px; }
+    .differents__header .differents__col_red, .differents__header .differents__col_blue {
+      padding-top: 15px;
+      text-align: center; }
+    .differents__header .differents__col:first-child {
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end; }
+    .differents__header .differents__col:nth-child(2) {
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start; }
+    .differents__header .differents__col *:first-child {
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 3px; }
+    .differents__header .differents__col *:nth-child(2) {
+      font-size: 28px;
+      font-weight: 700; }
+  .differents-card {
+    background: -webkit-gradient(linear, left top, right top, from(#F46125), to(#5279C7));
+    background: -webkit-linear-gradient(left, #F46125, #5279C7);
+    background: -o-linear-gradient(left, #F46125, #5279C7);
+    background: linear-gradient(to right, #F46125, #5279C7);
+    margin: 0 auto 15px;
+    border-radius: 8px;
+    padding: 25px 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear; }
+    .differents-card:hover {
+      -webkit-transform: scale(1.05, 1.05);
+      -ms-transform: scale(1.05, 1.05);
+      transform: scale(1.05, 1.05); }
+    @media (min-width: 546px) {
+      .differents-card {
+        max-width: 80%; } }
+    @media (min-width: 992px) {
+      .differents-card {
+        max-width: 50%; } }
+    .differents-card__title {
+      font-family: "Myriad Pro", sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      color: #fff;
+      opacity: .9;
+      text-transform: uppercase;
+      width: 43%;
+      text-align: right; }
+    .differents-card__text {
+      font-family: "Myriad Pro", sans-serif;
+      font-size: 14px;
+      font-weight: 300;
+      color: #fff;
+      text-align: left;
+      opacity: .9;
+      line-height: 1.25;
+      width: calc(57% - 25px); }
+      @media (min-width: 992px) {
+        .differents-card__text {
+          padding-right: 15%; } }
+      .differents-card__text li {
+        position: relative;
+        padding-left: 12px; }
+        .differents-card__text li:before {
+          content: "";
+          width: 10px;
+          height: 14px;
+          background: url("../images/arrow-menu.svg") center no-repeat;
+          position: absolute;
+          left: 0;
+          top: 0;
+          z-index: 1;
+          opacity: .9; }
+  .differents__title {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #646464;
+    text-transform: uppercase;
+    width: 100%;
+    margin-bottom: 10px; }
+  .differents__col_number {
+    font-size: 30px;
+    font-weight: 700; }
 
 /*===========/differents============*/
 /*=============University==============*/
@@ -1316,3 +1465,25 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-transform: translateX(50%);
     -ms-transform: translateX(50%);
     transform: translateX(50%); } }
+
+@media (max-width: 414px) {
+  .differents-card {
+    padding-bottom: 15px; }
+    .differents-card__title {
+      font-size: 16px; }
+    .differents-card__text {
+      font-size: 12px; }
+  .differents__title {
+    font-size: 18px; }
+  .differents__col {
+    font-size: 14px; }
+    .differents__col:first-child {
+      padding-right: 25px; }
+    .differents__col:nth-child(2) {
+      padding-left: 25px; }
+    .differents__col_number {
+      font-size: 26px; }
+  .differents__header .differents__col *:first-child {
+    font-size: 14px; }
+  .differents__header .differents__col *:nth-child(2) {
+    font-size: 25px; } }
